@@ -1,0 +1,77 @@
+
+.container, body{
+    margin: 0px;
+    padding: 0px;
+}
+.container header{
+    margin: 0px;
+    padding: 10px;
+    height: 50px;
+    background-color: rgb(216, 216, 216);
+    border-bottom: solid 1px #888888;
+}
+.container nav{
+    margin: 0px;
+    padding: 10px;
+    height: 50px;
+    background-color: rgb(180, 180, 180);
+    border-bottom: solid 1px #888888;
+}
+.container main{
+    margin: 0px;
+    padding: 10px;
+    min-height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid 1px #888888;
+}
+.container footer{
+    margin: 0px;
+    padding: 10px;
+    min-height: 50px;
+    background-color: rgb(29, 29, 29);
+    border-bottom: solid 1px #888888;    
+}
+.MyNav {
+    display: flex;
+    padding: 0px;
+}
+.MyNav li{
+    list-style: none;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+.MyCard {
+    display: block;
+    padding: 10px;
+    border-radius: 0.3cm;
+    border: solid #888888 2px;
+    margin: 5px;
+}
+.divForm{
+    width: 100%;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.divForm input[type=text], 
+.divForm input[type=date],
+.divForm input[type=number] {
+    width: calc(98% - 20px);
+    padding: 8px;
+    border-radius: 0.2cm;
+    border: solid 2px #888888;
+    font-size: 1.1rem;
+}
+button{
+    background-color: #0059ff;
+    padding: 10px;
+    border-radius: 0.2cm;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin: 5px;
+}
