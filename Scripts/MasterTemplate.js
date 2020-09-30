@@ -71,39 +71,39 @@ class MyNav extends DomClass{
                 type: "ul", props: {class: "MyNav"},
                     children: [
                         { type: "li", props:{onclick: ()=>{ 
-                            const apiURL = "http://localhost/MYPROYECT/Api/ApiCards.php";
+                            const apiURL = "http://localhost:3020/MYPROYECT/Api/ApiCards.php";
                             this.Navegando("../modules/Form1.js","Form1", apiURL, "Cards","Form1");
                         }
                     }, children: ["Form 1"]},
                         { type: "li", props:{onclick: ()=>{
-                            const apiURL = "http://localhost/MYPROYECT/Api/CatForm2.php/?function=GetModel";
+                            const apiURL = "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=GetModel";
                             const actions = {
-                                Insert:  "http://localhost/MYPROYECT/Api/CatForm2.php/?function=Insert",
-                                Get:  "http://localhost/MYPROYECT/Api/CatForm2.php/?function=Get",
-                                Update:  "http://localhost/MYPROYECT/Api/CatForm2.php/?function=Update",
-                                Delete:  "http://localhost/MYPROYECT/Api/CatForm2.php/?function=Delete"
+                                Insert:  "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=Insert",
+                                Get:  "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=Get",
+                                Update:  "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=Update",
+                                Delete:  "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=Delete"
                             }
                             this.Navegando("../modules/Form2.js","form", apiURL, "Form", "Form2",actions);
                         }
                     }, children: ["Form 2"]},
                         { type: "li", props:{onclick: ()=>{ 
-                            const apiURL = "http://localhost/MYPROYECT/Api/CatForm2.php/?function=GetModel";
+                            const apiURL = "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=GetModel";
                             const actions = {
-                                Insert:  "http://localhost/MYPROYECT/Api/CatForm2.php/?function=Insert",
-                                Get:  "http://localhost/MYPROYECT/Api/CatForm2.php/?function=Get",
-                                Update:  "http://localhost/MYPROYECT/Api/CatForm2.php/?function=Update",
-                                Delete:  "http://localhost/MYPROYECT/Api/CatForm2.php/?function=Delete"
+                                Insert:  "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=Insert",
+                                Get:  "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=Get",
+                                Update:  "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=Update",
+                                Delete:  "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=Delete"
                             }
                             this.Navegando("../modules/Form2.js","tblform1", apiURL, "Form", "Form2",actions);
                         }
                     }, children: ["Form 3"]},
                     { type: "li", props:{onclick: ()=>{ 
-                        const apiURL = "http://localhost/MYPROYECT/Api/CatForm2.php/?function=GetModel";
+                        const apiURL = "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=GetModel";
                         const actions = {
-                            Insert:  "http://localhost/MYPROYECT/Api/CatForm2.php/?function=Insert",
-                            Get:  "http://localhost/MYPROYECT/Api/CatForm2.php/?function=Get",
-                            Update:  "http://localhost/MYPROYECT/Api/CatForm2.php/?function=Update",
-                            Delete:  "http://localhost/MYPROYECT/Api/CatForm2.php/?function=Delete"
+                            Insert:  "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=Insert",
+                            Get:  "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=Get",
+                            Update:  "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=Update",
+                            Delete:  "http://localhost:3020/MYPROYECT/Api/CatForm2.php/?function=Delete"
                         }
                         this.Navegando("../modules/Form2.js","tblform2", apiURL, "Form", "Form2",actions);
                     }

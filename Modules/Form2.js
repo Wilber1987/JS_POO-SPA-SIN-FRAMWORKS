@@ -88,6 +88,8 @@ class Grid {
         this.events = { load: this.Draw };     
     }
     Draw = async ()=>{
+        //let table = document.getElementById(this.props.id);
+        //console.log(table);
         const {DomClass} = await import("../Scripts/MasterTemplate.js");
         const {Render} = await import("../Scripts/toolComponets.js");
         const inst = new DomClass();
